@@ -28,3 +28,21 @@ ALTER TABLE public.object_look
 ```
 
 Данное представление выводит информацию об объектах, с помощью которой можно найти где он находится, необходимый уровень доступа и должность которое обладает таким уровнем.
+
+## Создание хранимой процедуры `add_objectntli`
+```sql
+CREATE OR REPLACE PROCEDURE chuprov.add_objectntli(
+	IN object_name character varying,
+	IN object_type character varying,
+	IN level_acess integer,
+	IN labor_id integer)
+LANGUAGE 'sql'
+AS $BODY$
+	INSERT INTO chuprov.objects (name, level_acess, type, lab_id)
+	VALUES (object_name, level_acess, object_type, labor_id);
+$BODY$;
+ALTER PROCEDURE chuprov.add_objectntli(character varying, character varying, integer, integer)
+    OWNER TO student;
+```
+
+Данная процедура позволяет добавить запись в таблице "objects"
