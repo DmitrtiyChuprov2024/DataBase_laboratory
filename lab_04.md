@@ -1,4 +1,4 @@
-<img width="714" height="615" alt="image" src="https://github.com/user-attachments/assets/b58fafe3-e005-4f93-8569-7480f586a411" />## Анализ производительности до оптимизации
+## Анализ производительности до оптимизации
 ```sql
 EXPLAIN ANALYZE 
 SELECT * FROM object_look;
