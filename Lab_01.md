@@ -4,5 +4,5 @@
 - 3-5 таблиц в базе данных
 - Нормализация до третьей нормальной формы
 <p align="center">
- <img width="200px" src="png_lab_01.png" alt="qr"/>
+ <img width="2000px" src="png_lab_01.png" alt="qr"/>
 </p>
