@@ -3,4 +3,4 @@
 ## Структура базы данных:
 - 3-5 таблиц в базе данных
 - Нормализация до третьей нормальной формы
-<img width="1026" height="609" alt="image" src="https://github.com/user-attachments/assets/1297d828-2ae4-4784-a701-5c37ba9ceabb" />
+<img width="1026" height="609" alt="image" src="https://github.com/DmitrtiyChuprov2024/DataBase_laboratory/edit/main/png_Lab_01.png" />
