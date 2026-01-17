@@ -5,7 +5,7 @@
 **Цель:** Освоение механизмов абстракции данных и программных модулей
 
 
-## Создание представления `users_reservations`
+## Создание представления `object_look`
 ```sql
 CREATE OR REPLACE VIEW public.object_look
  AS
