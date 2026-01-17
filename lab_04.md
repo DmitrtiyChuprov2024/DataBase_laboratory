@@ -11,3 +11,4 @@ SELECT * FROM object_look;
 
 
 ## Создание индексов для оптимизации
+![png_lab_04.png](png_lab_04.png)
